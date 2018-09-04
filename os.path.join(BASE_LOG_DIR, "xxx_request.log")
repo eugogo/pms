@@ -1,0 +1,521 @@
+2018-08-19 22:58:07,697 [WARNING] [Thread-2:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-19 22:58:07,747 [WARNING] [Thread-3:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon-precomposed.png
+2018-08-19 22:58:07,753 [WARNING] [Thread-4:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon.png
+2018-08-19 22:58:11,273 [WARNING] [Thread-5:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-19 22:58:13,416 [WARNING] [Thread-6:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-19 22:59:14,033 [WARNING] [Thread-35:123145578364928] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:25:27,802 [WARNING] [Thread-2:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-23 23:25:27,917 [WARNING] [Thread-6:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon-precomposed.png
+2018-08-23 23:25:27,926 [WARNING] [Thread-7:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon.png
+2018-08-23 23:25:31,233 [WARNING] [Thread-8:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-23 23:25:37,962 [WARNING] [Thread-9:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-23 23:25:37,993 [WARNING] [Thread-10:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:25:48,597 [WARNING] [Thread-11:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-23 23:25:55,050 [WARNING] [Thread-12:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/matgroup/
+2018-08-23 23:25:55,096 [WARNING] [Thread-13:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:26:01,273 [WARNING] [Thread-16:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:26:26,680 [WARNING] [Thread-17:123145548095488] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-23 23:27:32,700 [WARNING] [Thread-15:123145557553152] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:27:34,562 [WARNING] [Thread-23:123145557553152] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-23 23:28:49,126 [WARNING] [Thread-28:123145557553152] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 07:01:14,145 [ERROR] [Thread-14:123145321631744] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_group_by_id() takes 1 positional argument but 2 were given
+2018-08-24 07:01:14,356 [WARNING] [Thread-15:123145321631744] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 07:04:13,186 [ERROR] [Thread-2:123145474330624] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/matgroup_views.py", line 19, in get_group_by_id
+    return JsonResponse(data)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/http/response.py", line 509, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/serializers/json.py", line 104, in default
+    return super().default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'MamMatgroup' is not JSON serializable
+2018-08-24 15:17:32,286 [WARNING] [Thread-3:123145436614656] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 15:17:37,942 [WARNING] [Thread-6:123145436614656] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 15:18:45,592 [WARNING] [Thread-18:123145436614656] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 15:19:04,730 [WARNING] [Thread-22:123145436614656] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 16:07:17,153 [WARNING] [Thread-2:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 16:07:22,212 [WARNING] [Thread-3:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 16:07:24,805 [WARNING] [Thread-4:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 16:07:27,264 [WARNING] [Thread-5:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 16:07:32,334 [WARNING] [Thread-6:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials/
+2018-08-24 16:07:42,545 [WARNING] [Thread-7:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 16:07:45,296 [WARNING] [Thread-8:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 16:08:04,333 [WARNING] [Thread-13:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 16:08:05,103 [WARNING] [Thread-14:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 16:08:13,981 [WARNING] [Thread-21:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 16:08:15,840 [WARNING] [Thread-24:123145540210688] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 16:12:32,048 [ERROR] [Thread-6:123145315880960] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /admin/mam/mammatgrouptask/add/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, "Incorrect integer value: 'hahaha' for column 'task_code' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 575, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1554, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1451, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1491, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1027, in save_model
+    obj.save()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1366, "Incorrect integer value: 'hahaha' for column 'task_code' at row 1")
+2018-08-24 16:17:29,280 [WARNING] [Thread-13:123145315880960] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/matgroups/task/hahaha
+2018-08-24 16:17:29,339 [WARNING] [Thread-14:123145315880960] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 16:17:40,081 [WARNING] [Thread-17:123145315880960] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 19:43:22,776 [WARNING] [Thread-2:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 19:43:27,665 [WARNING] [Thread-3:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 19:43:28,517 [WARNING] [Thread-4:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /damin
+2018-08-24 19:45:28,437 [WARNING] [Thread-13:123145530650624] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 19:53:45,858 [WARNING] [Thread-20:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 19:53:50,469 [WARNING] [Thread-21:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 19:53:51,251 [WARNING] [Thread-22:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 19:53:54,783 [WARNING] [Thread-23:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 19:53:57,227 [WARNING] [Thread-24:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 19:53:57,521 [WARNING] [Thread-25:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 19:53:59,392 [WARNING] [Thread-27:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-24 19:54:05,593 [WARNING] [Thread-30:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 19:54:32,792 [ERROR] [Thread-32:123145520140288] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_materials_by_material() takes 1 positional argument but 2 were given
+2018-08-24 19:54:32,959 [WARNING] [Thread-33:123145520140288] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:13:09,100 [WARNING] [Thread-2:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 20:13:12,779 [WARNING] [Thread-3:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-24 20:13:55,967 [WARNING] [Thread-8:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:13:58,254 [WARNING] [Thread-11:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:14:31,386 [WARNING] [Thread-29:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:18:51,368 [WARNING] [Thread-41:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/materials/groups/1
+2018-08-24 20:18:51,394 [WARNING] [Thread-42:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:19:35,773 [ERROR] [Thread-44:123145328078848] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_matirials_by_group_id
+    objs = group.objects.all()
+AttributeError: 'QuerySet' object has no attribute 'objects'
+2018-08-24 20:19:35,878 [WARNING] [Thread-45:123145328078848] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-24 20:21:06,310 [ERROR] [Thread-46:123145328078848] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_matirials_by_group_id
+    objs = group.objects.all()
+AttributeError: 'QuerySet' object has no attribute 'objects'
+2018-08-24 20:21:07,718 [ERROR] [Thread-47:123145328078848] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_matirials_by_group_id
+    objs = group.objects.all()
+AttributeError: 'QuerySet' object has no attribute 'objects'
+2018-08-24 20:31:38,219 [ERROR] [Thread-2:123145537523712] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_materials_by_group_id
+    objs = group.material__set.all()
+AttributeError: 'QuerySet' object has no attribute 'material__set'
+2018-08-24 20:31:53,949 [ERROR] [Thread-2:123145363030016] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_materials_by_group_id
+    objs = group.material_set.all()
+AttributeError: 'QuerySet' object has no attribute 'material_set'
+2018-08-24 20:43:01,324 [ERROR] [Thread-2:123145404989440] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_materials_by_group_id
+    objs = group.material_set.all()
+AttributeError: 'QuerySet' object has no attribute 'material_set'
+2018-08-24 20:45:22,335 [ERROR] [Thread-2:123145439522816] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 24, in load_materials_by_group_id
+    objs = group.material__set.all()
+AttributeError: 'QuerySet' object has no attribute 'material__set'
+2018-08-24 20:53:42,804 [ERROR] [Thread-2:123145505669120] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 23, in load_materials_by_group_id
+    objs = MamMatgroup.objects.filter(id=group_id).first().material_set.all()
+AttributeError: 'MamMatgroup' object has no attribute 'material_set'
+2018-08-24 21:06:47,053 [ERROR] [Thread-2:123145536962560] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 23, in load_materials_by_group_id
+    objs = MamMatgroup.objects.filter(id=group_id).first().material_set.all()
+AttributeError: 'MamMatgroup' object has no attribute 'material_set'
+2018-08-24 21:12:42,561 [ERROR] [Thread-3:123145536962560] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/matgroups/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 23, in load_materials_by_group_id
+    objs = MamMatgroup.objects.filter(id=group_id).first().material_set.all()
+AttributeError: 'MamMatgroup' object has no attribute 'material_set'
+2018-08-25 07:39:51,498 [WARNING] [Thread-2:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-25 07:40:08,564 [WARNING] [Thread-3:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-25 07:40:12,297 [WARNING] [Thread-4:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-25 07:40:19,792 [WARNING] [Thread-5:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-25 07:40:40,911 [WARNING] [Thread-11:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:40:50,320 [WARNING] [Thread-13:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:40:57,870 [WARNING] [Thread-15:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:41:12,946 [WARNING] [Thread-17:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:50:47,189 [WARNING] [Thread-18:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/matgroups/matgroups/1/
+2018-08-25 07:50:47,270 [WARNING] [Thread-19:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:52:40,855 [WARNING] [Thread-24:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:52:42,996 [WARNING] [Thread-27:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 07:54:23,007 [ERROR] [Thread-39:123145374625792] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/scenes/materials/1/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_scenes_by_material_id() takes 1 positional argument but 2 were given
+2018-08-25 07:54:23,198 [WARNING] [Thread-40:123145374625792] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:19:00,890 [WARNING] [Thread-5:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:19:03,165 [WARNING] [Thread-8:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:21:25,325 [WARNING] [Thread-20:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:21:44,415 [ERROR] [Thread-21:123145353826304] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/catas/materials/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/cata_views.py", line 13, in get_cata_by_material_id
+    objs = MamCata.objects.filter(mat_id=mat_id)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mat_id' into field. Choices are: audio_depth, audio_format, audio_rate, audio_sample_rate, camera_position, cata_type, content_description, content_what, content_when, content_where, content_who, content_why, create_app, create_description, create_time, create_user, delete_state, ext_cata, id, id_id, publish_state, shooting_date, shooting_place, shooting_user, video_depth, video_format, video_rate
+2018-08-25 08:21:44,552 [WARNING] [Thread-22:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:21:53,670 [WARNING] [Thread-23:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/cata/materials/2/
+2018-08-25 08:21:53,751 [WARNING] [Thread-24:123145353826304] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 08:25:01,077 [ERROR] [Thread-25:123145353826304] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/catas/materials/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/cata_views.py", line 13, in get_cata_by_material_id
+    objs = MamCata.objects.filter(mat_id=mat_id)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/query.py", line 836, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/query.py", line 854, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1253, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1277, in _add_q
+    split_subq=split_subq,
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1153, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1015, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1379, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'mat_id' into field. Choices are: audio_depth, audio_format, audio_rate, audio_sample_rate, camera_position, cata_type, content_description, content_what, content_when, content_where, content_who, content_why, create_app, create_description, create_time, create_user, delete_state, ext_cata, id, id_id, publish_state, shooting_date, shooting_place, shooting_user, video_depth, video_format, video_rate
+2018-08-25 08:49:04,197 [WARNING] [Thread-10:123145368772608] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 09:11:08,965 [WARNING] [Thread-7:123145372848128] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 09:41:37,153 [WARNING] [Thread-19:123145372848128] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 09:41:39,532 [WARNING] [Thread-22:123145372848128] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 09:42:28,890 [WARNING] [Thread-27:123145372848128] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-25 10:09:34,095 [WARNING] [Thread-4:123145575391232] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-27 22:55:26,604 [WARNING] [Thread-2:123145380331520] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-27 22:55:30,418 [WARNING] [Thread-7:123145380331520] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-27 22:55:31,438 [WARNING] [Thread-8:123145380331520] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-27 22:55:32,307 [WARNING] [Thread-9:123145380331520] [django.request:93] [base:get_response] [base.py:93]- Not Found: /mam/meterials
+2018-08-27 22:55:54,167 [ERROR] [Thread-15:123145380331520] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_materials_by_id() got an unexpected keyword argument 'pageIndex'
+2018-08-27 22:55:54,395 [WARNING] [Thread-16:123145380331520] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-27 22:57:47,015 [ERROR] [Thread-8:123145505824768] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_materials_by_id() got an unexpected keyword argument 'pageIndex'
+2018-08-27 22:58:02,372 [ERROR] [Thread-7:123145384312832] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_materials_by_id() got an unexpected keyword argument 'pageIndex'
+2018-08-27 22:58:54,106 [WARNING] [Thread-12:123145384312832] [django.request:93] [base:get_response] [base.py:93]- Not Found: /favicon.ico
+2018-08-27 23:07:24,882 [ERROR] [Thread-7:123145556660224] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 10, in load_matirials
+    data = format.formatResponsePageLoad(objs, pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 53, in formatResponsePageLoad
+    resultData = pageLoad(list, pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 93, in pageLoad
+    if pageIndex > 0 and pageSize > 0:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2018-08-27 23:09:42,593 [ERROR] [Thread-7:123145579286528] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 10, in load_matirials
+    data = format.formatResponsePageLoad(objs, pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 55, in formatResponsePageLoad
+    pageInfo = formatPageInfo(len(list), pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 83, in formatPageInfo
+    totalPage = totalCount // pageSize
+TypeError: unsupported operand type(s) for //: 'int' and 'str'
+2018-08-27 23:12:30,884 [ERROR] [Thread-7:123145537925120] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/1/2/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 10, in load_matirials
+    data = format.formatResponsePageLoad(objs, pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 55, in formatResponsePageLoad
+    pageInfo = formatPageInfo(len(list), pageIndex, pageSize)
+  File "/Volumes/data/Nutwu/python/royn/rpms/utils/utils/format.py", line 83, in formatPageInfo
+    totalPage = totalCount // pageSize
+TypeError: unsupported operand type(s) for //: 'int' and 'str'
+2018-08-28 09:48:41,058 [WARNING] [Thread-3:123145387073536] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon-precomposed.png
+2018-08-28 09:48:41,065 [WARNING] [Thread-4:123145387073536] [django.request:93] [base:get_response] [base.py:93]- Not Found: /apple-touch-icon.png
+2018-08-28 09:48:41,500 [ERROR] [Thread-5:123145387073536] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_matirials() missing 2 required positional arguments: 'pageIndex' and 'pageSize'
+2018-08-28 09:48:42,234 [ERROR] [Thread-6:123145387073536] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: load_matirials() missing 2 required positional arguments: 'pageIndex' and 'pageSize'
+2018-08-28 16:44:00,745 [WARNING] [Thread-2:123145521082368] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-28 16:44:04,539 [WARNING] [Thread-3:123145521082368] [django.request:93] [base:get_response] [base.py:93]- Not Found: /
+2018-08-28 16:44:05,474 [ERROR] [Thread-4:123145521082368] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 11, in load_matirials
+    print("---->" + data)
+TypeError: must be str, not dict
+2018-08-28 16:44:07,317 [ERROR] [Thread-5:123145521082368] [django.request:118] [exception:handle_uncaught_exception] [exception.py:118]- Internal Server Error: /mam/materials/
+Traceback (most recent call last):
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Volumes/data/Nutwu/python/royn/rpms/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Volumes/data/Nutwu/python/royn/rpms/mam/views/material_views.py", line 11, in load_matirials
+    print("---->" + data)
+TypeError: must be str, not dict

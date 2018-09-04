@@ -1,0 +1,34 @@
+FROM <image name>: 指定构建使用的基础镜像
+例: FROM ubuntu:14.04
+
+MAINTAINER <author name>: 创建者信息
+例: MAINTAINER Laowen "qq05629@126.com"
+
+ENV: 设置环境变量
+例: ENV REFRESHED _AT 2017-03-16
+
+RUN <command>: 在shell或者exec的环境下执行一条命令.RUN指令会在新创建的镜像上添加新的层面，接下来提交的结果可以用在Dockerfile的下一条指令中
+例: RUN apt-get -yqq update
+
+ADD <source> <destination>: 从当前目录复制文件到容器, source可以是URL或者是启动配置上下文中的一个文件, destination是容器内的路径. 会自动处理目录, 压缩包等情况
+例: ``
+COPY: 从当前目录复制文件到容器. 只是单纯地复制文件.
+
+VOLUME [ "/data" ]: 声明一个数据卷, 可用于挂载, []里面是路径
+例: VOLUME [ "/var/lib/redis", "/var/log/redis" ]
+
+USER <uid>: 镜像正在运行时设置的一个UID,RUN命令执行时的用户
+
+WORKDIR: 指定RUN、CMD与ENTRYPOINT命令的工作目录
+例: WORKDIR /opt/nodeapp
+
+ONBUILD: 前缀命令, 放在上面这些命令前面, 表示生成的镜像再次作为"基础镜像"被用于构建时要执行的命令
+
+ENTRYPOINT: 配置给容器一个可执行的命令,这意味着在每次使用镜像创建容器时,一个特定的应用程序可以被设置为默认程序.同时也意味着该镜像每次被调用时仅能运行指定的应用.类似于CMD,Docker只允许一个ENTRYPOINT,多个ENTRYPOINT会只执行最后的ENTRYPOINT指令
+例: ENTRYPOINT [ "nodejs", "server.js" ]
+
+CMD: 提供了容器默认的执行命令,Dockerfile只允许使用一次CMD指令. 使用多个CMD只有最后一个指令生效
+例: CMD [ "/bin/true" ]
+
+EXPOSE <port>: 指定容器在运行时监听的端口
+例: EXPOSE 3000
